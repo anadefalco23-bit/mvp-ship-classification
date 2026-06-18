@@ -1,0 +1,35 @@
+<svg width="1100" height="340" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f8fafc"/>
+  <text x="550" y="40" font-size="28" text-anchor="middle" font-family="Arial" font-weight="bold" fill="#0f172a">Ship Image Classification Pipeline</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#334155" />
+    </marker>
+  </defs>
+  <g font-family="Arial" font-size="16" text-anchor="middle">
+    <rect x="40" y="110" width="130" height="70" rx="12" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="105" y="150">Dataset</text>
+    <rect x="210" y="110" width="130" height="70" rx="12" fill="#dcfce7" stroke="#16a34a"/>
+    <text x="275" y="140">EDA &amp;</text><text x="275" y="162">Validation</text>
+    <rect x="380" y="110" width="150" height="70" rx="12" fill="#fef3c7" stroke="#d97706"/>
+    <text x="455" y="140">Preprocessing</text><text x="455" y="162">Pipeline</text>
+    <rect x="580" y="75" width="170" height="40" rx="10" fill="#fce7f3" stroke="#db2777"/>
+    <text x="665" y="101">CNN Baseline</text>
+    <rect x="580" y="125" width="170" height="40" rx="10" fill="#ede9fe" stroke="#7c3aed"/>
+    <text x="665" y="151">MobileNetV2</text>
+    <rect x="580" y="175" width="170" height="40" rx="10" fill="#fee2e2" stroke="#dc2626"/>
+    <text x="665" y="201">ResNet50</text>
+    <rect x="580" y="225" width="170" height="40" rx="10" fill="#cffafe" stroke="#0891b2"/>
+    <text x="665" y="251">YOLO11n-cls</text>
+    <rect x="805" y="110" width="130" height="70" rx="12" fill="#e0f2fe" stroke="#0284c7"/>
+    <text x="870" y="140">Model</text><text x="870" y="162">Comparison</text>
+    <rect x="975" y="110" width="100" height="70" rx="12" fill="#ccfbf1" stroke="#0f766e"/>
+    <text x="1025" y="140">Final</text><text x="1025" y="162">Model</text>
+  </g>
+  <line x1="170" y1="145" x2="210" y2="145" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="340" y1="145" x2="380" y2="145" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="530" y1="145" x2="580" y2="145" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="750" y1="145" x2="805" y2="145" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="935" y1="145" x2="975" y2="145" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="550" y="315" font-size="14" text-anchor="middle" font-family="Arial" fill="#475569">EDA → Preprocessing → Model Training → Comparison → Final Evaluation</text>
+</svg>
